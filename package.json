@@ -17,7 +17,7 @@
 	},
 	"sideEffects": false,
 	"engines": {
-		"node": ">=16"
+		"node": ">=20"
 	},
 	"scripts": {
 		"test": "xo && ava && tsd"
@@ -35,16 +35,21 @@
 	],
 	"dependencies": {
 		"common-path-prefix": "^3.0.0",
-		"pkg-dir": "^7.0.0"
+		"pkg-dir": "^8.0.0"
 	},
 	"devDependencies": {
-		"ava": "^5.3.1",
-		"del": "^7.0.0",
+		"ava": "^6.2.0",
+		"del": "^8.0.0",
 		"tempy": "^3.1.0",
-		"tsd": "^0.28.1",
-		"xo": "^0.56.0"
+		"tsd": "^0.31.2",
+		"xo": "^0.60.0"
 	},
 	"ava": {
 		"workerThreads": false
+	},
+	"xo": {
+		"rules": {
+			"n/no-unsupported-features/node-builtins": "off"
+		}
 	}
 }
