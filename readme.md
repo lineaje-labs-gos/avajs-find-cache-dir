@@ -1,4 +1,4 @@
-# find-cache-dir
+# find-cache-directory
 
 > Finds the common standard cache directory
 
@@ -24,13 +24,13 @@ rm -rf ./node_modules/.cache
 ## Install
 
 ```sh
-npm install find-cache-dir
+npm install find-cache-directory
 ```
 
 ## Usage
 
 ```js
-import findCacheDirectory from 'find-cache-dir';
+import findCacheDirectory from 'find-cache-directory';
 
 findCacheDirectory({name: 'unicorns'});
 //=> '/user/path/node-modules/.cache/unicorns'
@@ -77,7 +77,7 @@ Create the directory synchronously before returning.
 
 ## Tips
 
-- To test modules using `find-cache-dir`, set the `CACHE_DIR` environment variable to temporarily override the directory that is resolved.
+- To test modules using this package, set the `CACHE_DIR` environment variable to temporarily override the directory that is resolved.
 
 ## Adopters
 
@@ -87,3 +87,7 @@ Create the directory synchronously before returning.
 - [`babel-loader`](https://github.com/babel/babel-loader)
 - [`eslint-loader`](https://github.com/MoOx/eslint-loader)
 - [More…](https://www.npmjs.com/browse/depended/find-cache-dir)
+
+## Related
+
+- [env-paths](https://github.com/sindresorhus/env-paths) - Get paths for storing things like data, config, cache, etc

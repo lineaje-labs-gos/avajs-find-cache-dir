@@ -31,7 +31,7 @@ The algorithm checks for the `CACHE_DIR` environmental variable and uses it if i
 
 @example
 ```
-import findCacheDirectory from 'find-cache-dir';
+import findCacheDirectory from 'find-cache-directory';
 
 findCacheDirectory({name: 'unicorns'});
 //=> '/user/path/node-modules/.cache/unicorns'
