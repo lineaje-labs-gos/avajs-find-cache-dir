@@ -1,6 +1,6 @@
 {
 	"name": "find-cache-directory",
-	"version": "5.0.0",
+	"version": "6.0.0",
 	"description": "Finds the common standard cache directory",
 	"license": "MIT",
 	"repository": "sindresorhus/find-cache-directory",
